@@ -1,26 +1,32 @@
 {
   "format": 1,
   "restore": {
-    "/Users/DS2/Documents/I4DS/TechChallenge/TechChallenge/TechChallenge.csproj": {}
+    "C:\\Users\\Admin\\Documents\\I4DS\\TechChallenge\\TechChallenge\\TechChallenge.csproj": {}
   },
   "projects": {
-    "/Users/DS2/Documents/I4DS/TechChallenge/TechChallenge/TechChallenge.csproj": {
+    "C:\\Users\\Admin\\Documents\\I4DS\\TechChallenge\\TechChallenge\\TechChallenge.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/DS2/Documents/I4DS/TechChallenge/TechChallenge/TechChallenge.csproj",
+        "projectUniqueName": "C:\\Users\\Admin\\Documents\\I4DS\\TechChallenge\\TechChallenge\\TechChallenge.csproj",
         "projectName": "TechChallenge",
-        "projectPath": "/Users/DS2/Documents/I4DS/TechChallenge/TechChallenge/TechChallenge.csproj",
-        "packagesPath": "/Users/DS2/.nuget/packages/",
-        "outputPath": "/Users/DS2/Documents/I4DS/TechChallenge/TechChallenge/obj/",
+        "projectPath": "C:\\Users\\Admin\\Documents\\I4DS\\TechChallenge\\TechChallenge\\TechChallenge.csproj",
+        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Admin\\Documents\\I4DS\\TechChallenge\\TechChallenge\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "/Users/DS2/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net10.0"
         ],
         "sources": {
-          "/usr/local/share/dotnet/library-packs": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -65,7 +71,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/10.0.302/PortableRuntimeIdentifierGraph.json",
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.302/PortableRuntimeIdentifierGraph.json",
           "packagesToPrune": {
             "Microsoft.AspNetCore": "(,10.0.32767]",
             "Microsoft.AspNetCore.Antiforgery": "(,10.0.32767]",

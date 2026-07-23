@@ -11,18 +11,6 @@ public class HomeController : Controller
         return View();
     }
 
-    public IActionResult About()
-    {
-        //ViewData e ViewBag servem para transportar os dados do controller para a View
-        // Imagine que os dados abaixo vieram de um banco de dados
-        ViewData["Nome"] = "Natallie Amadeu";
-        ViewData["Idade"] = 18;
-
-        ViewBag.Cidade = "Jaú";
-        ViewBag.UF = "SP";
-        return View();
-    }
-
     public IActionResult Privacy()
     {
         return View();
