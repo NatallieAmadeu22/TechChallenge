@@ -95,3 +95,4 @@
 /Users/DS2/Documents/I4DS/TechChallenge/TechChallenge/obj/Debug/net10.0/TechChallenge.pdb
 /Users/DS2/Documents/I4DS/TechChallenge/TechChallenge/obj/Debug/net10.0/TechChallenge.genruntimeconfig.cache
 /Users/DS2/Documents/I4DS/TechChallenge/TechChallenge/obj/Debug/net10.0/ref/TechChallenge.dll
+/Users/DS2/Documents/I4DS/TechChallenge/TechChallenge/obj/Debug/net10.0/TechChallenge.sourcelink.json
