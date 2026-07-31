@@ -13,4 +13,5 @@ public class AppDbContext : DbContext  // Herança do Contexto do EF Core
         de Dados, deverá ser adicionado um DbSet
     */
     public DbSet<Aluno> Alunos {get; set;}  
+    public DbSet<Categoria> Categorias {get; set;}  
 }
