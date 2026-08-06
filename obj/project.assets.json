@@ -6133,32 +6133,25 @@
     ]
   },
   "packageFolders": {
-    "D:\\AI\\Cache\\NuGet\\Packages": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "/Users/DS2/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\2026 - 2 Sem\\I4DS\\TechChallenge\\TechChallenge.csproj",
+      "projectUniqueName": "/Users/DS2/I4DS/TechChallenge/TechChallenge.csproj",
       "projectName": "TechChallenge",
-      "projectPath": "D:\\2026 - 2 Sem\\I4DS\\TechChallenge\\TechChallenge.csproj",
-      "packagesPath": "D:\\AI\\Cache\\NuGet\\Packages",
-      "outputPath": "D:\\2026 - 2 Sem\\I4DS\\TechChallenge\\obj\\",
+      "projectPath": "/Users/DS2/I4DS/TechChallenge/TechChallenge.csproj",
+      "packagesPath": "/Users/DS2/.nuget/packages/",
+      "outputPath": "/Users/DS2/I4DS/TechChallenge/obj/",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\SP-Skills\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "/Users/DS2/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net10.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
+        "/usr/local/share/dotnet/library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -6229,7 +6222,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.302/PortableRuntimeIdentifierGraph.json",
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/10.0.302/PortableRuntimeIdentifierGraph.json",
         "packagesToPrune": {
           "Microsoft.AspNetCore": "(,10.0.32767]",
           "Microsoft.AspNetCore.Antiforgery": "(,10.0.32767]",
