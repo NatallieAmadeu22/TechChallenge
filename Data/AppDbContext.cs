@@ -1,9 +1,11 @@
+using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 using TechChallenge.Models;
 
 namespace TechChallenge;
 
-public class AppDbContext : DbContext  // Herança do Contexto do EF Core
+public class AppDbContext : IdentityDbContext<IdentityUser>  // Herança do Contexto do EF Core
 {
     // Herança no Método Construtor
     public AppDbContext(DbContextOptions<AppDbContext> options) : base(options)
