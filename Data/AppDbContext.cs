@@ -1,4 +1,5 @@
 using Microsoft.EntityFrameworkCore;
+using TechChallenge.Models;
 
 namespace TechChallenge;
 
@@ -13,5 +14,15 @@ public class AppDbContext : DbContext  // Herança do Contexto do EF Core
         de Dados, deverá ser adicionado um DbSet
     */
     public DbSet<Aluno> Alunos {get; set;}  
-    public DbSet<Categoria> Categorias {get; set;}  
+    public DbSet<Categoria> Categorias {get; set;} 
+    public DbSet<Professor> Professores { get; set; }
+    public DbSet<Equipe> Equipes { get; set; }
+    public DbSet<AlunoEquipe> AlunosEquipes { get; set; }
+    public DbSet<Projeto> Projetos { get; set; }
+
+    protected override void OnModelCreating(ModelBuilder modelBuilder)
+    {
+        base.OnModelCreating(modelBuilder);
+        modelBuilder.Entity<AlunoEquipe>().HasKey(ae => new { ae.AlunoId, ae.EquipeId });
+    }
 }

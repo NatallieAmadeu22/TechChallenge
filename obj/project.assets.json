@@ -6133,7 +6133,7 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\SP-Skills\\.nuget\\packages\\": {},
+    "D:\\AI\\Cache\\NuGet\\Packages": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
@@ -6142,7 +6142,7 @@
       "projectUniqueName": "D:\\2026 - 2 Sem\\I4DS\\TechChallenge\\TechChallenge.csproj",
       "projectName": "TechChallenge",
       "projectPath": "D:\\2026 - 2 Sem\\I4DS\\TechChallenge\\TechChallenge.csproj",
-      "packagesPath": "C:\\Users\\SP-Skills\\.nuget\\packages\\",
+      "packagesPath": "D:\\AI\\Cache\\NuGet\\Packages",
       "outputPath": "D:\\2026 - 2 Sem\\I4DS\\TechChallenge\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
