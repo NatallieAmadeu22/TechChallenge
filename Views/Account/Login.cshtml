@@ -1,0 +1,17 @@
+@model TechChallenge.LoginViewModel
+@{
+    ViewData["Title"] = "Login";
+}
+<form asp-action="Login" method="post">
+    <input asp-for="ReturnUrl" type="hidden" />
+    <input asp-for="Email" class="form-control"/>
+    <span asp-validation-for="Email"></span>
+
+    <input asp-for="Senha" class="form-control" type="password"/>
+    <span asp-validation-for="Senha"></span>
+
+    <input asp-for="Lembrar" type="checkbox"/>
+    <label asp-for="Lembrar">Lembrar-me</label>
+
+    <button type="submit">Entrar</button>
+</form>

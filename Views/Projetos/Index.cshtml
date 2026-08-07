@@ -58,13 +58,13 @@
                 @Html.DisplayFor(modelItem => item.Pontuacao)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.Professor.Email)
+                @Html.DisplayFor(modelItem => item.Professor!.Email)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.Categoria.Nome)
+                @Html.DisplayFor(modelItem => item.Categoria!.Nome)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.Equipe.Nome)
+                @Html.DisplayFor(modelItem => item.Equipe!.Nome)
             </td>
             <td>
                 <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
